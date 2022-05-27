@@ -8,9 +8,15 @@ using namespace std;
 
 int main(int argc, char *argv[])
 {
-    float gamma = atof(argv[1]);
-    int episodes = atoi(argv[2]);
-    float epsilon = atof(argv[3]);
+    float gamma=1;
+    int episodes=10000;
+    float epsilon=0.01;
+    if (argc == 4)
+    {
+        gamma = atof(argv[1]);
+        episodes = atoi(argv[2]);
+        epsilon = atof(argv[3]);
+    }
     int** Maze = createMaze(GRID_SIZE);
     showMaze(Maze);
     float*** Q = q_learning(gamma,episodes,epsilon,Maze);
