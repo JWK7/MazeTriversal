@@ -207,8 +207,6 @@ float*** createQTable()
             }
         }
     }
-//rti dds 
-//qnx
     return Q;
 }
 

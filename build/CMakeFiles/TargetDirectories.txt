@@ -1,0 +1,3 @@
+/Users/johnchung/Downloads/Stuff/build/CMakeFiles/out.dir
+/Users/johnchung/Downloads/Stuff/build/CMakeFiles/edit_cache.dir
+/Users/johnchung/Downloads/Stuff/build/CMakeFiles/rebuild_cache.dir

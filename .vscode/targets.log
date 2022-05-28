@@ -10,11 +10,10 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 make: *** No rule to make target `all'.  Stop.
 
 
-# Make data base, printed on Fri May 27 11:53:19 2022
+# Make data base, printed on Fri May 27 14:58:58 2022
 
 # Variables
 
- 
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # automatic
@@ -32,11 +31,12 @@ CURDIR := /Users/johnchung/Downloads/Stuff
 # makefile
 SHELL = /bin/sh
 # environment
+ 
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 _ = /usr/bin/make
-# makefile (from `makefile', line 1)
-MAKEFILE_LIST :=  makefile
+# makefile
+MAKEFILE_LIST := 
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
@@ -44,7 +44,7 @@ __CFBundleIdentifier = com.microsoft.VSCode
 # environment
 INFOPATH = /opt/homebrew/share/info:
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /var/folders/hc/cj8v80x569nb450ww56q_lsw0000gn/T/vscode-ipc-ed965a00-6ea9-47cf-8a7f-a32e34f5ecb9.sock
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/hc/cj8v80x569nb450ww56q_lsw0000gn/T/vscode-ipc-89351d58-8e17-434b-b627-3750b4da094b.sock
 # environment
 VSCODE_CWD = /
 # environment
@@ -104,7 +104,7 @@ MAKE_VERSION := 3.81
 # environment
 USER = johnchung
 # makefile
-.DEFAULT_GOAL := default
+.DEFAULT_GOAL := 
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -114,11 +114,11 @@ MAKE_COMMAND := /Library/Developer/CommandLineTools/usr/bin/make
 # default
 .VARIABLES := 
 # environment
- 
 TMPDIR = /var/folders/hc/cj8v80x569nb450ww56q_lsw0000gn/T/
 # automatic
 *F = $(notdir $*)
 # environment
+ 
 VSCODE_IPC_HOOK = /Users/johnchung/Library/Application Support/Code/1.67.2-main.sock
 # makefile
 MAKEFLAGS = Rrqp
@@ -165,7 +165,7 @@ _CE_CONDA =
 # environment
 LANG = C
 # variable set hash-table stats:
-# Load=74/1024=7%, Rehash=0, Collisions=2/97=2%
+# Load=74/1024=7%, Rehash=0, Collisions=2/94=2%
 
 # Pattern-specific Variable Values
 
@@ -199,23 +199,24 @@ all:
 #  File has not been updated.
 
 # Not a target:
-makefile:
+Makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
 #  Implicit rule search has been done.
-#  Last modified 2022-05-27 11:52:20
+#  File does not exist.
 #  File has been updated.
-#  Successfully updated.
+#  Failed to be updated.
 # variable set hash-table stats:
 # Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
-default:
-#  Implicit rule search has not been done.
- 
-#  Modification time never checked.
-#  File has not been updated.
-#  commands to execute (from `makefile', line 2):
-	g++ main.cpp -o out
-	./out gamma episodes epsilon
-	
+# Not a target:
+makefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
 
 # Not a target:
 .DEFAULT:
@@ -223,19 +224,29 @@ default:
 #  Modification time never checked.
 #  File has not been updated.
 
+# Not a target:
+GNUmakefile:
+#  A default, MAKEFILES, or -include/sinclude makefile.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
 # files hash-table stats:
-# Load=5/1024=0%, Rehash=0, Collisions=0/17=0%
+# Load=6/1024=1%, Rehash=0, Collisions=0/17=0%
 # VPATH Search Paths
 
 # No `vpath' search paths.
 
 # No general (`VPATH' variable) search path.
 
-# # of strings in strcache: 1
-# # of strcache buffers: 1
-# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
-# strcache free: total = 4087 / max = 4087 / min = 4087 / avg = 4087
+# # of strings in strcache: 0
+# # of strcache buffers: 0
+# strcache size: total = 0 / max = 0 / min = 4096 / avg = 0
+# strcache free: total = 0 / max = 0 / min = 4096 / avg = 0
 
-# Finished Make data base on Fri May 27 11:53:19 2022
+# Finished Make data base on Fri May 27 14:58:58 2022
 
  
